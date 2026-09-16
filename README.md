@@ -32,6 +32,8 @@ JSiTV 使用 SwiftUI 构建，面向 iPhone、iPad、Mac、Apple TV 和 Apple Vi
 
 请从本仓库的 **Releases** 页面下载最新版本。
 
+当前版本：`v0.1.4`。
+
 版本号采用 `v版本号` 的形式。构建由私有 JSiTV 源码仓库的 GitHub Actions 完成，成功后自动跨仓库发布到这里。
 
 ## 后端要求
@@ -40,7 +42,7 @@ JSiTV 是 CTJSIPTV 的客户端，本身不直接执行江苏电信 IPTV 登录�
 
 使用前需要先部署 CTJSIPTV 后端，并确保运行 JSiTV 的设备能够访问该后端。
 
-CTJSIPTV 的公开发行版及部署教程：
+CTJSIPTV 的公开发行版及部署说明（服务端已内置网页、API 和图片代理）：
 
 https://github.com/Primovist/CTJSIPTV-Release
 
